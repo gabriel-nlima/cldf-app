@@ -37,7 +37,7 @@ export default class DepsContainer extends Component {
     } else if (depsFederais > 72) {
       this.setState({
         message:
-          "Não pode ter mais que 72 representantes do DF na Câmara Federal"
+          "Não pode ter mais que 72 representantes do DF na Câmara Federal."
       });
     }
   };

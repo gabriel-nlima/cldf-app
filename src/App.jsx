@@ -6,11 +6,11 @@ import DepsContainer from "./containers/DepsContainer";
 
 class App extends React.Component {
   render() {
-    const Container = withContainer(DepsContainer);
+    const MainContainer = withContainer(DepsContainer);
     return (
       <React.Fragment>
         <Header />
-        <Container />
+        <MainContainer />
         <Footer />
       </React.Fragment>
     );
